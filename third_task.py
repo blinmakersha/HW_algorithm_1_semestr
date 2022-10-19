@@ -5,7 +5,7 @@ def numJewelsInStones(jewels: str, stones: str):
   for jewel in jewels:      # создаем цикл, который проходится по каждому элементу в драгоценностях
     for stone in stones:        # создаем цикл, который проходит по каждому элементу в камнях
       if jewel == stone:        # через условный оператор проверяем каждый элемент в камнях на наличие 
-драгоценности
+				# драгоценности
         result += 1
   return result
 
